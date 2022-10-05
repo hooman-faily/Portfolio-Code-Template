@@ -22,4 +22,28 @@ body{
     color: var(--Primary);
     background-color: var(--Primary-extra-light);
 }
+.mainContent{
+    padding: 100px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.projectsArea{
+    padding: 50px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.projectsArea .card{
+    margin-top: 30px;
+}
+.projectsArea .card a{
+    display: block;
+}
+.projectCard{
+    height: 128px;
+    object-fit: contain;
+    padding: 20px;
+    background-color: var(--Secondary-extra-light);
+}
