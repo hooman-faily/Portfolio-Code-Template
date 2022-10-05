@@ -1,0 +1,25 @@
+body{
+    background: var(--Primary-gradient);
+}
+
+.nav-link{
+    color: var(--Primary);
+}
+.nav-link:hover{
+    color: var(--Primary-dark);
+}
+.nav-link.active{
+    color: var(--Secondary-dark);
+}
+.navbar-nav .dropdown-menu {
+    left: unset;
+    right: 0;
+}
+.dropdown-item{
+    color: var(--Primary);
+}
+.dropdown-item:hover{
+    color: var(--Primary);
+    background-color: var(--Primary-extra-light);
+}
+
