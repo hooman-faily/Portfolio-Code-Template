@@ -47,3 +47,10 @@ body{
     padding: 20px;
     background-color: var(--Secondary-extra-light);
 }
+
+footer{
+    margin-top: 100px;
+    padding: 30px;
+    text-align: center;
+    background: var(--Primary-gradient-rev);
+}
